@@ -1,5 +1,5 @@
 //类
-class Person{
+class Person1{
     name:string;
     constructor(name:string){
         this.name = name
@@ -8,11 +8,11 @@ class Person{
         alert(this.name)
     }
 }
-var p = new Person('aaa');
+var p = new Person1('aaa');
 // p.run(); 
 //ts中实现继承
 //子类和父类有同样的方法，会执行子类的方法
-class Web extends Person {
+class Web extends Person1 {
     constructor(name:string){
         super(name)
     }
